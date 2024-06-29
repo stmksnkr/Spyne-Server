@@ -1,0 +1,14 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "root",
+      "database": "discussion_app",
+      "host": "localhost",
+      "dialect": "postgres",
+      "operatorsAliases": false
+    },
+    "production": {
+      "use_env_variable": "DATABASE_URL",
+      "dialect": "postgres"
+    }
+}
